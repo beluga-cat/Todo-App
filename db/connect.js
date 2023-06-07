@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
-
+// manual way
 // const connectionString = 'mongodb+srv://<userID>:<password>@nodeexpressproject.pwocnnz.mongodb.net/<ClusterName>?retryWrites=true&w=majority'
+
 
 
 const connectDB = (url) => {
